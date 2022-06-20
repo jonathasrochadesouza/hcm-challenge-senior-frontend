@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# HCM CHALLENGE (Senior Sistemas) - Frontend.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Senior Labs challenge, desafio 'software engineer'.
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+1. Clone o repositório em sua máquina
+2. Abra o projeto com uma editor/IDE de sua preferência (utilizei Visual Studio Code)
+3. Instale os pacotes do projeto (juntamente com o NodeJS)
+   ```sh
+   npm install
+   ```
 
-### `npm start`
+## Executando o Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Verifique se o backend está rodando. Você pode acessar aqui: [projeto backend](https://github.com/jonathasrochadesouza/hcm-challenge-senior-backend)
+<!-- 2. O backend deve estar sendo executado na porta `8080` -->
+2. Para executar o Frontend, basta executar o comando abaixo
+    ```sh
+    npm run dev
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚠ OBS: Verifique o seguinte antes de executar o front: 
+* Instalação dos pacotes
+* Verificar a porta no `.env` 
+* Verificar se o backend estar rodando
 
-### `npm test`
+O frontend tentará subir na `porta 3000`, no `host localhost` (inicialmente). Essas configurações podem ser alteradas através da váriavel de ambiente `PORT` no `.env`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API (Backend)
 
-### `npm run build`
+O Frontend espera que a API (back - producer), esteja rodando na `porta 8080`, no `host localhost` (inicialmente).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esta configuração (host e porta de entrada da api) pode ser alterada através da váriavel de ambiente `API_URL`, encontrada no `.env`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ideia Inicial (Protótipo)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://github.com/jonathasrochadesouza/hcm-challenge-senior-frontend/git_assets_readme/hcm_front_prototipo.png)
 
-### `npm run eject`
+## Executando Aplicação (back + front)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](https://github.com/jonathasrochadesouza/hcm-challenge-senior-frontend/git_assets_readme/hcm-challenge-gif-eventos-marcacao-de-ponto.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Saiba Mais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Tecnologias`
+* Nodejs
+* Reactjs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Pacotes e Ferramentas`
 
-## Learn More
+* Visual Studio Code 
+* Material UI
+* Axios
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## `Projeto desenvolvido por Jonathas Rocha`
