@@ -13,8 +13,7 @@ Senior Labs challenge, desafio 'software engineer'.
 
 ## Executando o Frontend
 
-1. Verifique se o backend está rodando. Você pode acessar aqui: [projeto backend](https://github.com/jonathasrochadesouza/hcm-challenge-senior-backend)
-<!-- 2. O backend deve estar sendo executado na porta `8080` -->
+1. Verifique se o backend está rodando.
 2. Para executar o Frontend, basta executar o comando abaixo
     ```sh
     npm run dev
@@ -25,21 +24,25 @@ Senior Labs challenge, desafio 'software engineer'.
 * Verificar a porta no `.env` 
 * Verificar se o backend estar rodando
 
-O frontend tentará subir na `porta 3000`, no `host localhost` (inicialmente). Essas configurações podem ser alteradas através da váriavel de ambiente `PORT` no `.env`.
+O frontend tentará subir na `porta 5000`, no `host localhost` (inicialmente). Essa configuração podem ser alterada através da váriavel de ambiente `PORT` no `.env`.
 
 ## API (Backend)
 
-O Frontend espera que a API (back - producer), esteja rodando na `porta 8080`, no `host localhost` (inicialmente).
+Você pode acessar o projeto backend [aqui](https://github.com/jonathasrochadesouza/hcm-challenge-senior-backend)
 
-Esta configuração (host e porta de entrada da api) pode ser alterada através da váriavel de ambiente `API_URL`, encontrada no `.env`.
+O Frontend espera que a API (back - producer), esteja rodando na `porta 8080`, no `host localhost`.
 
 ## Ideia Inicial (Protótipo)
 
-![](https://github.com/jonathasrochadesouza/hcm-challenge-senior-frontend/git_assets_readme/hcm_front_prototipo.png)
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/62067474/174648694-6df89b0f-dc5d-448a-8998-15ad8651ea1f.png" width="800px"/>
+</div>
 
 ## Executando Aplicação (back + front)
 
-![](https://github.com/jonathasrochadesouza/hcm-challenge-senior-frontend/git_assets_readme/hcm-challenge-gif-eventos-marcacao-de-ponto.gif)
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/62067474/174646767-6ff8e550-3b1b-438b-924f-8f2de0182520.gif" width="1100px"/>
+</div>
 
 ## Saiba Mais
 
