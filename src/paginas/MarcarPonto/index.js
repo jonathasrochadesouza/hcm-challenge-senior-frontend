@@ -44,20 +44,21 @@ export default function MarcarPonto() {
 
         setHelperText('Aguarde...');
 
-        const marcacaoponto_con_exec = await api.post(`/api/marcacaoponto`, "")
         
         try {
+            const marcacaoponto_con_exec = await api.post(`/api/marcacaoponto`, "")
+            
             switch ((marcacaoponto_con_exec).status) {
                 case 200:
-                    setHelperText('Ponto registrado  com sucesso!');
+                    setHelperText('Ponto registrado com SUCESSO!');
                     break;
                 default:
-                    setHelperText('Não foi possível bater o ponto!');
+                    setHelperText('Não foi possível registrar o ponto!');
                     break;
             }
 
         } catch (error) {
-            setHelperText('Verifique se o servidor está conectado');
+            setHelperText('Por favor, verifique se o servidor está conectado!');
         }
     }
 
